@@ -1,0 +1,151 @@
+
+/* Wrapper Section*/
+.wrap {
+  min-height: 100vh;
+}
+
+/* Main Containers Section */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.fexlstart{
+  align-items: flex-start;
+}
+
+.mainContainer {
+  width: 80%;
+  padding-bottom:50px;
+}
+
+/* Title Section */
+
+.title {
+  font-size: 60px;
+  text-align: center;
+}
+
+/* Input Section */
+
+.inputSection {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Input Box */
+
+.input {
+  border-color: #000;
+  height: 50px;
+  background: #d9d9d9 !important;
+}
+
+.position_relative{
+  position: relative;
+}
+
+.serachIcon {
+  position: absolute;
+  top: 10px;
+  right: 8px;
+}
+
+.serachIconNew {
+  position: absolute;
+  right: 20px;
+}
+
+/* Tagline Section */
+
+.tagline {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Header Bar Section */
+
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Icons */
+
+.icons {
+  cursor: pointer;
+}
+
+/* =====  Mode ==== */
+
+/* Day Mode */
+
+.day {
+  background-color: #fff;
+}
+
+/* Night Mode */
+
+.night {
+  background-color: black;
+}
+
+.night .title,
+.night .tagline,
+.night .sun,
+.night .optionText,
+.night .loading{
+  color: #d9d9d9;
+}
+
+/* ==== Header Section ==== */
+
+.margin_right {
+  margin-right: 20px;
+}
+
+.optionText {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.switch {
+  margin-top: 3px;
+}
+
+.iconbox{
+  width: 41px;
+  height: 41px;
+  border-radius: 5px;
+  background: #5436DA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resbox{
+  padding: 10px;
+  color: #343749;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  background: #d9d9d9;
+}
+
+.green{
+  background: #15a27f;
+}
+
+/* ==== Media Queries ==== */
+
+@media screen and (max-width: 767px) {
+  .col1{
+    width: 20% !important;
+  }
+  .col11{
+    width:80% !important;
+  }
+}
